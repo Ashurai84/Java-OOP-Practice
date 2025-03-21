@@ -93,83 +93,18 @@
 
 
 
+
+
 // abstract class Animal{   // abstrcat classs hai yeh 
 // abstract void makesound();} // AAbstract method hai yeh  and its is runtime me ovveride karrr  raha hai 
 // class  Dog extends Animal{
 //     @Override
 //     void makesound(){
 //         System.out.println("Dog barks.......");}}
-// public class Abstract {
+// public class InnerAbstract {
 //      public static void main(String[] args) {
 //         Dog d = new Dog();
 //         d.makesound();}}
-
-
-
-// abstract class Vehicle {
-//     abstract void start();
-
-//     void fuel() {   // Concrete Method
-//         System.out.println("Vehicle fuel is needed");
-//     }
-// }
-
-// // Child Class
-// class Bike extends Vehicle {
-//     void start() {
-//         System.out.println("Bike is starting...");
-//     }
-// }
-
-// // Main Class
-// public class Abstract {
-//     public static void main(String[] args) {
-//         Bike b = new Bike();
-//         b.fuel();  // Calling Concrete Method
-//         b.start(); // Calling Overridden Abstract Method
-//     }
-// }
-
-// Abstract Class
-abstract class Shape {
-    double d1;
-
-    // Constructor
-    Shape(double d1) {
-        this.d1 = d1;
-    }
-
-    // Abstract Method
-    abstract void area();
-}
-
-// Square Class
-class Square extends Shape {
-    Square(double side) {
-        super(side);  // Calling parent constructor
-    }
-
-    // Implement area() method
-    void area() {
-        double area = d1 * d1;
-        System.out.println("Area of Square: " + area);
-    }
-}
-
-// Main Class
-public class Abstract {
-    public static void main(String[] args) {
-        Square s = new Square(5);  // side = 5
-        s.area();
-    }
-}
-
-
-
-
-
-
-
 
 
 
